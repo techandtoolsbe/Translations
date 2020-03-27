@@ -6,7 +6,7 @@
         <td align="center" style="min-width: 590px;">
             <table border="0" cellpadding="0" cellspacing="0" width="590" style="border-collapse:collapse;min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;">
                 <tbody><tr><td valign="middle">
-                    <span style="font-size: 10px;">Uw gebruiksprofiel</span><br>
+                    <span style="font-size: 10px;">Uw Account</span><br>
                     <span style="font-size: 20px; font-weight: bold;">
                         ${object.name}
                     </span>
@@ -26,12 +26,12 @@
                 <tbody><tr><td valign="top" style="font-size: 13px;">
                     <div style="font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;">
                         Beste, ${object.name},<br><br>test<br>
-                        Your account has been successfully created!<br>
-                        Your login is <strong style="font-weight:bolder;">${object.email}</strong><br>
-                        To gain access to your account, you can use the following link:
+                        Uw account werd succesvol gecreëerd! created!<br>
+                        Uw login is <strong style="font-weight:bolder;">${object.email}</strong><br>
+                        Om toegang te krijgen tot uw account kan je op volgende link klikken:
                         <div style="font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;margin: 16px 0px 16px 0px;">
                             <a href="/web/login?${ctx['auth_login']}" style="text-decoration:none;color:rgb(0, 135, 132);background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
-                                Ga naar "mijn profiel"
+                                Ga naar "Mijn Account"
                             </a>
                         </div>
                         Bedankt,<br><br>
